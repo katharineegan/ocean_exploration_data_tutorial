@@ -69,11 +69,10 @@ A dataset is ready for analysis when the data are: cleaned, quality checked, var
 Now that we've covered the basics of R including the importance of cleaning and preparation, it's time to move into data analysis and visulization of the data. At this point, your data set should be in an analysis ready data format. 
 
 #### Exploratory data analysis 
-Exploratory data analysis (EDA) is covered in [Chapter 7](https://r4ds.had.co.nz/exploratory-data-analysis.html) of R for Data Science. The EDA process can take place throughout the data science lifecycle. I tend to explore the data after I have it in the analysis ready data format. EDA is a way to systematically visulize and transform your data in order to further explore them. EDA is an iterative cycle and allows you to: 
+Exploratory data analysis (EDA) is covered in [Chapter 7](https://r4ds.had.co.nz/exploratory-data-analysis.html) of R for Data Science. The EDA process can take place throughout the data science lifecycle. I tend to explore the data after I have it in the analysis ready data format. EDA is a way to systematically visulize and transform your data in order to further explore them. There is no right or wrong way to do EDA! EDA is an iterative cycle and allows you to: 
 * Generate questions about your data
 * Search for answers by visualizing, transforming, and modeling your data
 * Use what you learn to refine your questions and/or generate new questions
-There is no right or wrong way to do EDA!
 
 #### Introduction to ```ggplot2```
 The package ```ggplot2``` is an R package that comes pre-loaded with the tidyverse. It's used specifically for creating graphs, plots, and other figures. When I need to get started on making a figure I take a look at some of the basic graphs featured in [Cookbook for R](http://www.cookbook-r.com/Graphs/). This helps me figure out what graph is appropriate for my data and gives me base code to get started on the actual plot. 
