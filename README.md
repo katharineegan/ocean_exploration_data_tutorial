@@ -34,6 +34,7 @@ When conducting this tutorial for interns, I like to go step-by-step through the
 
 ![data_science_model](https://user-images.githubusercontent.com/12935901/209712433-1983bdf7-2c54-43d9-bc4c-3d750954b33c.png)
 
+Image courtesy of R for Data Science
 
 #### File Organization
 Everyone likes to organize their files differently, but this is the way that I have always done it. I generally have four folders depending on the project I am working on. The "raw_data" folder contains, well, the raw data. This is the data in their rawest format and should not be manipulated or touched at all. I have a folder where I keep all of my R scripts ("scripts"). The "clean_data" folder is any output I generate from my code, whether that be a statistical test in an Excel spreadsheet, intermediate R objects, CSVs, etc. This folder isn't always necessary unless you have multiple scripts that require this intermediate input. Finally, I have a "figures" folder to write out figures for reports or publications. 
@@ -63,6 +64,7 @@ A dataset is ready for analysis when the data are: cleaned, quality checked, var
 
 ![analysis_ready_data](https://user-images.githubusercontent.com/12935901/209712807-d0930bbc-f90b-43bf-a72b-49516e8e6111.png)
 
+Image courtesy of R for Data Science
 
 ## Introduction to data analysis and visualization in R
 
@@ -102,3 +104,6 @@ Bubblegum coral, Image courtesy of the NOAA Ocean Exploration, Windows to the De
 
 ## R script tutorial
 The [R script](https://github.com/katharineegan/ocean_exploration_data_tutorial/blob/main/ocean_exploration_data_tutorial.R) for this tutorial covers most of the data science lifecycle. The first half of the R tutorial script covers installing packages, loading packages, importing files, quality checking the data, and converting the data into an analysis ready format all using basic and commonly used functions from the tidyverse packages. The second half uses the analysis ready data to conduct EDA, conduct a statistical test (a t.test specifically), and visualize the data using ggplot2.
+
+###### Disclaimer
+All views expressed on this website are my own and do not represent the opinions of any entity whatsoever with which I have been, am now, or will be affiliated.
