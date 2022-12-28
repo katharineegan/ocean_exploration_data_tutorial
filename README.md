@@ -1,5 +1,5 @@
 # Ocean Exploration Data Science Tutorial
- A tutorial on data cleaning, analysis, and visualization in R using ocean exploration datasets as an example. I put together this tutorial in 2021 for NOAA Ocean Exploration's summer interns to teach them about the data science lifecycle and how to use to R/RStudio. The text here is adopted from two presentations I gave for the interns.
+ A tutorial on data cleaning, analysis, and visualization in R using ocean exploration datasets as an example. I put together this tutorial in 2021 for NOAA Ocean Exploration's summer interns to teach them about the data science lifecycle and how to use to R/RStudio. The text here is adopted from two presentations I gave to the interns.
  
 ## Introduction to data preparation and cleaning in R
 
@@ -7,10 +7,10 @@
 [R](https://www.r-project.org/) is a programming language as part of a free, open source software first developed in 1993. R possesses an extensive catalog of statistical and graphical methods. 
 
 #### Why use R?
-R is a fast-growing and popular programming language, and it's used in virutally every industry. R is popular in the biological sciences, especially in the field of ecology. Additionally, R is free to use and knowing a programming lanuage in general will give you a step up in any career. See this [excellent article on Stack Overflow](https://stackoverflow.blog/2017/10/10/impressive-growth-r/) about the growth of the R programming language.
+R is a fast-growing and popular programming language, and it's used in virutally every industry. R is popular in the biological sciences, especially in the field of ecology, and it's free to use. Also, knowing a programming lanuage in general will give you a step up in any career. See this [excellent article on Stack Overflow](https://stackoverflow.blog/2017/10/10/impressive-growth-r/) about the growth of the R programming language.
 
 #### What is RStudio?
-[RStudio](https://posit.co/), now called Posit, is an integrated development environment (IDE) for R. Its interface is organized so that the user can clearly view graphs, data tables, code, and output all at the same time. Here is an image of what RStudio looks like and what each of the panes mean:
+[RStudio](https://posit.co/), now called Posit, is an integrated development environment (IDE) for R. Its interface is organized so that the user can clearly view graphs, data tables, code, and output all at the same time. Here is an image of what RStudio looks like and what each pane means:
 
 ![rstudio_interface](https://user-images.githubusercontent.com/12935901/209712372-51733bc8-79bc-4443-acb9-fff610964f5c.png)
 
@@ -29,8 +29,8 @@ In R, the fundamental unit of shareable code is the **package** (or library). A 
 <img width="563" alt="nomenclature_of_code" src="https://user-images.githubusercontent.com/12935901/209712285-01cda4f7-469a-426c-be52-f35fcdbb8f1f.PNG">
 
 
-#### The Data Science Model
-When conducting this tutorial for interns, I like to go step-by-step through the data science model introduced in the [first chapter](https://r4ds.had.co.nz/introduction.html) of [R for Data Science](https://r4ds.had.co.nz/index.html) by Hadley Wickham and Garrett Grolemund. The introduction details each part of the data science model. The first part of this tutorial covers data import and tidying.
+#### The Data Science Lifecycle
+When conducting this tutorial for interns, I like to go step-by-step through the data science lifecycle introduced in the [first chapter](https://r4ds.had.co.nz/introduction.html) of [R for Data Science](https://r4ds.had.co.nz/index.html) by Hadley Wickham and Garrett Grolemund. The introduction details each part of the data science lifecycle. The first part of this tutorial covers data import and tidying.
 
 ![data_science_model](https://user-images.githubusercontent.com/12935901/209712433-1983bdf7-2c54-43d9-bc4c-3d750954b33c.png)
 
