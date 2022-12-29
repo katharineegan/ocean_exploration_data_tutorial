@@ -43,7 +43,7 @@ Everyone likes to organize their files differently, but this is the way that I h
 
 
 #### Introduction to ```tidyverse```
-This tutotiral exclusively uses packages in ```tidyverse```. The [```tidyverse```](https://www.tidyverse.org/) is "an opinionated collection of R packages designed for data science. All packages share an underlying design philosophy, grammar, and data structures". The ```tidyverse``` packages use the pipe operator, written as ```%>%```. More information about the pipe operator can be found [here](https://towardsdatascience.com/an-introduction-to-the-pipe-in-r-823090760d64) and in [Chapter 18](https://r4ds.had.co.nz/pipes.html) of R for Data Science. From the article, the pipe operator "takes the output of one function and passes it into another function as an argument. This allows us to link a sequence of analysis steps".
+This tutorial exclusively uses packages in ```tidyverse```. The [```tidyverse```](https://www.tidyverse.org/) is "an opinionated collection of R packages designed for data science. All packages share an underlying design philosophy, grammar, and data structures". The ```tidyverse``` packages use the pipe operator, written as ```%>%```. More information about the pipe operator can be found [here](https://towardsdatascience.com/an-introduction-to-the-pipe-in-r-823090760d64) and in [Chapter 18](https://r4ds.had.co.nz/pipes.html) of R for Data Science. From the article, the pipe operator "takes the output of one function and passes it into another function as an argument. This allows us to link a sequence of analysis steps".
 
 This example is pulled directly from R for Data Science. Here is what the code would look like without the pipe operator: 
 ```
@@ -60,7 +60,7 @@ clean_foo <- foo %>%
 ```
 
 #### Analysis ready data
-A dataset is ready for analysis when the data are: cleaned, quality checked, variables are in columns, and observations are in rows. More information can be found in [Chapter 12](https://r4ds.had.co.nz/tidy-data.html) of R for Data Science. This image shows an excellent graphical representation of what analysis ready data should look like. 
+A dataset is ready for analysis when the data are: quality checked, variables are in columns, and observations are in rows. More information can be found in [Chapter 12](https://r4ds.had.co.nz/tidy-data.html) of R for Data Science. This image shows an excellent graphical representation of what analysis ready data should look like. 
 
 ![analysis_ready_data](https://user-images.githubusercontent.com/12935901/209712807-d0930bbc-f90b-43bf-a72b-49516e8e6111.png)
 
@@ -68,10 +68,10 @@ Image courtesy of R for Data Science
 
 ## Introduction to data analysis and visualization in R
 
-Now that we've covered the basics of R including the importance of cleaning and preparation, it's time to move into data analysis and visulization of the data. At this point, your data set should be in an analysis ready data format. 
+Now that we've covered the basics of R including the importance of cleaning and preparation, it's time to move into data analysis and visulization of the data. At this point, your dataset should be in an analysis ready data format. 
 
 #### Exploratory data analysis 
-Exploratory data analysis (EDA) is covered in [Chapter 7](https://r4ds.had.co.nz/exploratory-data-analysis.html) of R for Data Science. The EDA process can take place throughout the data science lifecycle. I tend to explore the data after I have it in the analysis ready data format. EDA is a way to systematically visulize and transform your data in order to further explore them. There is no right or wrong way to do EDA! EDA is an iterative cycle and allows you to: 
+Exploratory data analysis (EDA) is covered in [Chapter 7](https://r4ds.had.co.nz/exploratory-data-analysis.html) of R for Data Science. The EDA process can take place throughout the data science lifecycle. EDA is a way to systematically visulize and transform your data in order to further explore them. I tend to explore the data after I have it in the analysis ready data format. There is no right or wrong way to do EDA! This process is an iterative cycle and allows you to: 
 * Generate questions about your data
 * Search for answers by visualizing, transforming, and modeling your data
 * Use what you learn to refine your questions and/or generate new questions
@@ -100,10 +100,10 @@ The data from this tutorial come from one of NOAA Ocean Exploration's expedition
 
 ![bubblegum-800](https://user-images.githubusercontent.com/12935901/209712532-8e0c0dac-daac-4fbb-ac92-666c4b0c8908.jpg)
 
-Bubblegum coral, Image courtesy of the NOAA Ocean Exploration, Windows to the Deep 2019
+Bubblegum coral, Image courtesy of NOAA Ocean Exploration, Windows to the Deep 2019
 
 ## R script tutorial
-The [R script](https://github.com/katharineegan/ocean_exploration_data_tutorial/blob/main/ocean_exploration_data_tutorial.R) for this tutorial covers most of the data science lifecycle. The first half of the R tutorial script covers installing packages, loading packages, importing files, quality checking the data, and converting the data into an analysis ready format all using basic and commonly used functions from the tidyverse packages. The second half uses the analysis ready data to conduct EDA, conduct a statistical test (a t.test specifically), and visualize the data using ggplot2.
+The [R script](https://github.com/katharineegan/ocean_exploration_data_tutorial/blob/main/ocean_exploration_data_tutorial.R) for this tutorial covers most of the data science lifecycle. The first half of the R tutorial script covers installing packages, loading packages, importing files, quality checking the data, and converting the data into an analysis ready format using basic and commonly used functions from the ```tidyverse``` packages. The second half uses the analysis ready data to conduct EDA, conduct a statistical test (a t.test specifically), and visualize the data using ```ggplot2```.
 
 ###### Disclaimer
 All views expressed on this website are my own and do not represent the opinions of any entity whatsoever with which I have been, am now, or will be affiliated.
