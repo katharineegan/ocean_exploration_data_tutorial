@@ -16,7 +16,7 @@ R is a fast-growing and popular programming language, and it's used in virutally
 
 
 #### R Packages
-In R, the fundamental unit of shareable code is the **package** (or library). A package bundles together code, data, docuemntation, and tests, and is easy to share with others. As of June 2019, there were over 14,000 packages available on the [Comprehensive R Archive Network (CRAN)](https://cran.r-project.org/), which is the public clearinghouse for R packages. To install a package in R use this code ```install.packages("package_name")```.
+In R, the fundamental unit of shareable code is the **package** (or library). A package bundles together code, data, documentation, and tests, and is easy to share with others. As of June 2019, there were over 14,000 packages available on the [Comprehensive R Archive Network (CRAN)](https://cran.r-project.org/), which is the public clearinghouse for R packages. To install a package in R use this code ```install.packages("package_name")```.
 
 #### Common file types associated with R
 * **.r**: An R script
@@ -30,7 +30,7 @@ In R, the fundamental unit of shareable code is the **package** (or library). A 
 
 
 #### The Data Science Lifecycle
-When conducting this tutorial for interns, I like to go step-by-step through the data science lifecycle introduced in the [first chapter](https://r4ds.had.co.nz/introduction.html) of [R for Data Science](https://r4ds.had.co.nz/index.html) by Hadley Wickham and Garrett Grolemund. The introduction details each part of the data science lifecycle. The first part of this tutorial covers data import and tidying.
+When conducting this tutorial for interns, I like to go step-by-step through the data science lifecycle introduced in the [first chapter](https://r4ds.had.co.nz/introduction.html) of [R for Data Science](https://r4ds.had.co.nz/index.html) by Hadley Wickham and Garrett Grolemund. The introduction details each part of this lifecycle. The first part of this tutorial covers data import and tidying.
 
 ![data_science_model](https://user-images.githubusercontent.com/12935901/209712433-1983bdf7-2c54-43d9-bc4c-3d750954b33c.png)
 
